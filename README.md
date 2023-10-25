@@ -1,2 +1,4 @@
 # Bitwise-Reducer
 Takes an integer and uses bitwise operations to reduce it to 1, counting the number of steps required.
+
+Python function that efficiently reduces an integer 'n' to 1 using a combination of bitwise operations and conditional statements. It starts by converting the input to an integer and then repeatedly applies specific bitwise transformations to the number, effectively dividing it by 2 in various ways, while keeping track of the number of steps taken in the 'counter' variable. These transformations depend on the binary representation of 'n' and the values of its least significant bits. The function continues this process until 'n' is reduced to a value less than or equal to 3. It then performs additional checks for specific cases when 'n' is 2 or 3. The result returned by the function is the minimum number of steps required to reach the value 1, making it an intriguing algorithm for integer reduction.
